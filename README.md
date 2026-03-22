@@ -44,3 +44,17 @@ function showMessage() {
 
 </body>
 </html>
+
+
+
+<audio id="bgmusic" autoplay loop muted>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+window.addEventListener("click", function() {
+  let music = document.getElementById("bgmusic");
+  music.muted = false;
+  music.play();
+});
+</script>
