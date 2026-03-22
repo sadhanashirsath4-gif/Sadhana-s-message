@@ -2,35 +2,31 @@
 <html>
 <head>
     <title>Secret Message 🎁</title>
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            text-align: center;
-            font-family: Arial;
-        }
-        #message {
-            display: none;
-            margin-top: 50px;
-            font-size: 20px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-    </style>
 </head>
 
-<body>
+<body style="background:black; color:white; text-align:center;">
 
-<h2>👀 Click to see something special</h2>
+<h2>👀 Click below</h2>
 
-<button onclick="showMessage()">Open 🎁</button>
+<button onclick="playMusic()">Open 🎁</button>
 
-<div id="message">
-first press 2 time❤️ Thank you so much for your wishes ani yevde efforts majha sathi khup mothi goshtye and jhop thodi thambun majha sathi jagun😅😅😅😅😅😅 birthday wish krlya bdl khup khup dhanyavad 
-hamari aur aapki yesi hi nok jhok chlti rhe aur nazar na lage 
+<p id="msg" style="display:none;">
+first press 2 time ❤️ Thank you so much for your wishes ani yevde efforts majha sathi khup mothi goshtye and jhop thodi thambun majha sathi jagun 😅 birthday wish krlya bdl khup khup dhanyavad
+</p>
+
+<audio id="bgmusic">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic() {
+  document.getElementById("bgmusic").play();
+  document.getElementById("msg").style.display = "block";
+}
+</script>
+
+</body>
+</html>hamari aur aapki yesi hi nok jhok chlti rhe aur nazar na lage 
 aakhiri message samapt hoke me end krti hu🫣😜🤣🤣🫡
 </div>
 
