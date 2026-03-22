@@ -30,7 +30,7 @@
 <button onclick="showMessage()">Open 🎁</button>
 
 <div id="message">
-    ❤️ Thank you so much for your wishes ani yevde efforts majha sathi khup mothi goshtye and jhop thodi thambun majha sathi jagun😅😅😅😅😅😅 birthday wish krlya bdl khup khup dhanyavad 
+     first press 2 time❤️ Thank you so much for your wishes ani yevde efforts majha sathi khup mothi goshtye and jhop thodi thambun majha sathi jagun😅😅😅😅😅😅 birthday wish krlya bdl khup khup dhanyavad 
   hamari aur aapki yesi hi nok jhok chlti rhe aur nazar na lage 
   aakhiri message samapt hoke me end krti hu🫣😜🤣🤣🫡<br><br>
     
